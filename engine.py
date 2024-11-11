@@ -16,9 +16,4 @@ def get_rostos():
         rostos_conhecidos.append(roger1[1][0])
         nomes_dos_rostos.append("Robert")
 
-    romulo1 = reconhece_face("./img/kaua.jpg")
-    if romulo1[0]:
-        rostos_conhecidos.append(romulo1[1][0])
-        nomes_dos_rostos.append("Kaua")
-
     return rostos_conhecidos, nomes_dos_rostos
