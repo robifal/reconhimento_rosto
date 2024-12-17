@@ -1,5 +1,4 @@
-
-dlib (windows https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+dlib==19.24.6
 face_recognition
 numpy
 opencv-python
